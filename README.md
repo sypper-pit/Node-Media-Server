@@ -54,9 +54,9 @@ node-media-server
 ```bash
 docker run --name nms -d -p 1935:1935 -p 8000:8000 -p 8443:8443 illuspas/node-media-server
 ```
-## full avto start docker-compouse
+## docker-compouse
 ```
-cd RSTP_MEDIA_SERVER && docker-compouse up -d
+cd docker-compose && docker-compouse up -d
 ```
 [http://server_ip:8000/admin](http://server_ip:8000/admin) - login: admin , password: admin
 
